@@ -3,4 +3,4 @@ interface CategoryFilterProps {
     setCategory: (value: string) => void;
 }
 
-export default CategoryFilterProps;
+export type { CategoryFilterProps };

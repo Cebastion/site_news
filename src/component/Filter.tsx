@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import type CategoryFilterProps from "../interface/page/Filter.interface";
+import type { CategoryFilterProps } from "../interface/page/Filter.interface";
 
 const categories = ["business", "technology", "sports", "health"];
 

@@ -1,6 +1,6 @@
 interface SearchProps {
-  search: string;
-  setSearch: (value: string) => void;
+    search: string;
+    setSearch: (value: string) => void;
 }
 
-export default SearchProps;
+export type { SearchProps };

@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import type SearchProps from "../interface/page/Search.interface";
+import type { SearchProps } from "../interface/page/Search.interface";
 
 const Search: FC<SearchProps> = ({ search, setSearch }) => {
     return (
