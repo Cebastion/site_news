@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import type { INewResponse } from "../../../interface/New.interface";
 
-const API_KEY = '5341ced8079646339c9675ce38a36e80'
+const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 
 export const NewsSliceApi = createApi({
     reducerPath: "NewsApi",
